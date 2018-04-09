@@ -1,0 +1,42 @@
+
+{% extends 'blog/layout.html' %}
+
+ {% block extra_head %}
+      
+       <style>
+           .post_photo { max-width: 300px;
+                         max-height: 300px;
+                        }
+       </style>
+ {% endblock %}
+
+{% block content %} 
+
+
+
+
+{% for post in post_list %}
+    
+
+
+  <div class="panel panel-success">
+    <div class="panel-heading ">
+       
+          <h4> {{ post.title }} </h4>  
+     
+     </div>
+        
+    
+    <div class="panel-body">
+        {% if post.photo %}
+         <img src="{{ post.photo.url }}" class="post_photo" />
+    {% endif %}   
+      </div>
+    <div class="panel-footer"> 
+        <p>{{ post.content|linebreaksbr }}</p>
+        <p>   {{ post.published_date }}</p>
+      </div>
+  </div>
+{% endfor %}      
+               
+  {% endblock  %}

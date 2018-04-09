@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+body,html,.row-offcanvas {
+/*  height:100%;*/
+}
+
+.navbar-toggle
+{
+    position:relative;
+    float:right;
+    padding:9px 10px;
+    margin-top:8px;
+    margin-right:15px;
+    margin-bottom:8px;
+    background-color:transparent;
+    background-image:none;
+    border:1px solid #444;          /* added line */
+    border-radius:4px
+}
+
+body {
+    padding-top: 0px;
+}
+
+
+
+section {
+    padding:6rem 0;
+}
+
+  .bg-secondary {
+/*  background-color:#EEEBEB #2C3E50 !important;*/
+  background-color: #2C3E50 !important; 
+  
+}
+  
+ .bg-primary {
+  background-color: #ffe6ff !important;
+   /* nav button background-color*/
+}
+
+
+#sidebar {
+  width: inherit;
+  min-width: 220px;
+  max-width: 220px;
+  
+ 
+background-color:;
+  float: left;
+  height:100%;
+  position:relative;
+  overflow-y:auto;
+  overflow-x:hidden;
+   border: 1px solid #eee; 
+}
+
+
+#main {
+/*  height:100%;*/
+/* overflow:auto;*/
+
+}
+
+
+
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+     -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+    width:calc(100% + 220px);
+  }
+    
+  .row-offcanvas-left
+  {
+    left: -220px;
+  }
+
+  .row-offcanvas-left.active {
+    left: 0;
+  }
+
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+  }
+}
+
+
+.intro{
+    
+   padding-top: 50px;
+    
+}
+
+/*map*/
+.axgmap{
+    width: 
+        auto;
+  height: 420px;
+   
+  border: solid 1px #ccc;
+   
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: !important; 
+  
+/*  background-color: #EEEBEB #2C3E50;*/
+  color: #000;
+}
+.copyright {
+/*  background-color: #1a252f;*/
+    background-color: #eee;
+}
+
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+
+.scroll-to-top a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(33, 37, 41, 0.5);
+  line-height: 3.1rem;
+}
+
+.res {
+
+    height:60px;
+    background-color:;
+    border-bottom:1px solid black;
+    text-align:center;
+
+}
+
+.res img {
+
+    margin-top:8.5px;
+    margin-left:;
+    display:inline
+}
+
+.sales{
+     background-color:#e6ffe6;
+     margin-top: 10px;
+}
+
+.blank{
+    height: 10px;
+   
+}
+
+
+
