@@ -11,6 +11,7 @@ body,html,.row-offcanvas {
 /*  height:100%;*/
 }
 
+/*
 .navbar-toggle
 {
     position:relative;
@@ -21,9 +22,10 @@ body,html,.row-offcanvas {
     margin-bottom:8px;
     background-color:transparent;
     background-image:none;
-    border:1px solid #444;          /* added line */
+    border:1px solid #444;           added line 
     border-radius:4px
 }
+*/
 
 body {
     padding-top: 0px;
@@ -86,11 +88,11 @@ background-color:;
     
   .row-offcanvas-left
   {
-    left: -220px;
+/*    left: -220px;*/
   }
 
   .row-offcanvas-left.active {
-    left: 0;
+/*    left: 0;*/
   }
 
   .sidebar-offcanvas {
@@ -168,6 +170,13 @@ background-color:;
     height: 10px;
    
 }
+.col-md-6 h4{
+     
+     padding-top:20px;
+}
+
+ 
+
 
 
 
