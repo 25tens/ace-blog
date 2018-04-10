@@ -5,48 +5,45 @@
 
 
 
-
+@import url('https://fonts.googleapis.com/css?family=Kalam:700');
 
 body,html,.row-offcanvas {
 /*  height:100%;*/
 }
 
-/*
-.navbar-toggle
-{
-    position:relative;
-    float:right;
-    padding:9px 10px;
-    margin-top:8px;
-    margin-right:15px;
-    margin-bottom:8px;
-    background-color:transparent;
-    background-image:none;
-    border:1px solid #444;           added line 
-    border-radius:4px
-}
-*/
+
 
 body {
     padding-top: 0px;
+    
 }
 
 
+#main h2{
+    font-family: 'Kalam', cursive;
+}
+
+
+.navbar-header{
+     background-color: #c0b3c2;
+}
+#navbarCollapse{
+     background-color: #c0b3c2;
+}
 
 section {
     padding:6rem 0;
 }
 
   .bg-secondary {
-/*  background-color:#EEEBEB #2C3E50 !important;*/
-  background-color: #2C3E50 !important; 
+  background-color:red !important;
+ /*   background-color: #2C3E50 !important; */
   
 }
   
  .bg-primary {
-  background-color: #ffe6ff !important;
-   /* nav button background-color*/
-}
+   /*  background-color: #ffe6ff !important;*/
+  }
 
 
 #sidebar {
@@ -120,30 +117,19 @@ background-color:;
 
 .footer {
   padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: !important; 
+  padding-bottom:2rem;
+  background-color:; 
+   
   
 /*  background-color: #EEEBEB #2C3E50;*/
   color: #000;
 }
 .copyright {
 /*  background-color: #1a252f;*/
-    background-color: #eee;
+    background-color: #d1c4e9;
 }
 
-.scroll-to-top {
-  z-index: 1042;
-  right: 1rem;
-  bottom: 1rem;
-  display: none;
-}
 
-.scroll-to-top a {
-  width: 3.5rem;
-  height: 3.5rem;
-  background-color: rgba(33, 37, 41, 0.5);
-  line-height: 3.1rem;
-}
 
 .res {
 
@@ -157,6 +143,7 @@ background-color:;
 .res img {
 
     margin-top:8.5px;
+  
     margin-left:;
     display:inline
 }
@@ -175,7 +162,7 @@ background-color:;
      padding-top:20px;
 }
 
- 
+
 
 
 
