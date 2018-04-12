@@ -18,6 +18,12 @@ from django.conf.urls.static import static
 from django.conf.urls import include, url
 from django.contrib import admin
 
+admin.site.site_header = 'ACE MarlineTech Administration'
+admin.site.site_title = 'ACE MarlineTech'
+#admin.site.site_url = ''
+admin.site.index_title = 'ACE MarlineTech'
+admin.empty_value_display = '**Empty**'
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'', include('blog.urls')),
