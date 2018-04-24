@@ -25,7 +25,7 @@ SECRET_KEY = '1vnm%=z@4$ybw=i=nqtt3)oiwlq^f=!0vp0f&*+4w0%+kv7y-b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com','www.acemarinetech.com']
 
 
 # Application definition
